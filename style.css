@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F8E9DD ;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'DM Sans', sans-serif;
+}
+
+#content{
+    /* border: 1px solid black; */
+    width: 540px;
+    height: 660px;
+    position: relative;
+}
+
+header {
+    background-color: hsl(10, 79%, 65%);
+    width: 540px;
+    height: 125px;
+    border-radius: 20px;
+}
+
+main {
+    background-color:white;
+    width: 540px;
+    height: 511px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 0;
+}
+
+#Mybalance{
+    color: white;
+    line-height: 23px;
+    padding-top: 27px;
+    padding-left: 32px;
+    font-weight: 400;
+}
+
+#Current{
+    color: white;
+    padding-top: 8px;
+    padding-left: 32px;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+#Circles{
+    /* border: 1px solid black; */
+    width: 72px;
+    height: 48px;
+    position: absolute;
+    right: 39px;
+    top: 38px;
+}
+
+#WhiteCircle{
+    border: 2px solid white;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    position :absolute;
+    z-index: 1;
+}
+
+#BlackCircle{
+    background-color: #382314;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    position :absolute;
+    right: 0;
+}
+
+#title{
+    color:#382314;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    margin-left: 40px;
+    margin-top: 32px;
+}
+
+#line{
+    width: 460px;
+    height: 2px;
+    border-radius: 1px ;
+    background:#F8E9DD;
+    position :absolute;
+    left: 40px;
+    top: 350px;
+    /* margin-top: 350px;
+    margin-left: 40px; */
+}
+
+#Total{
+    border: 1px solid black;
+    width: 460px;
+    height: 87px;
+    position :absolute;
+    left: 40px;
+    bottom: 40px;
+    /* margin-left: 40px;  */
+}
+
+#statistic{
+    border: 1px solid black;
+    width: 460.5px;
+    height: 178px;
+    position: absolute;
+    left: 40px;
+    top: 140px;
+}
