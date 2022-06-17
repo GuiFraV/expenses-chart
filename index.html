@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <title>Challenge 1/17</title>
 </head>
 <body>
@@ -24,14 +25,20 @@
     <main>
       <p id="title"> Spending - Last 7 days </p>
 
-      <div id="statistic"></div>
+      <div id="statistic">
+        <canvas id="myChart"></canvas>
+      </div>
 
       <div id="line"></div>
       <div id="Total">
-
+        <p id="totalM">Total this month</p>
+        <p id="CurrentD">$478.33</p>
+        <p id="plus">+2.4%</p>
+        <p id="lastM">from last month</p>
       </div>
     </main>
   </div>
-  
+
+  <script src="app.js"></script>
 </body>
 </html>

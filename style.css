@@ -101,7 +101,7 @@ main {
 }
 
 #Total{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 460px;
     height: 87px;
     position :absolute;
@@ -118,3 +118,59 @@ main {
     left: 40px;
     top: 140px;
 }
+
+#totalM{
+    /* border: 1px solid black; */
+    position: absolute;
+    bottom: 64px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #92857A;
+}
+
+#CurrentD{
+    /* border: 1px solid black; */
+    position: absolute;
+    width: 184px;
+    height: 62px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+    bottom: 1px;
+    color: #382314;
+}
+
+#plus{
+    position: absolute;
+    width: 53px;
+    height: 23px;
+    bottom: 33px;
+    right: 0;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: right;
+    color: #382314;
+}
+
+#lastM{
+    position: absolute;
+    width: 133px;
+    height: 23px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #92857A;
+    bottom: 9px;
+    right: 0;
+}
+
