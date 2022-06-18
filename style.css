@@ -111,7 +111,7 @@ main {
 }
 
 #statistic{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 460.5px;
     height: 178px;
     position: absolute;
